@@ -37,7 +37,8 @@ gulp.task('dependencies', function() {
     'node_modules/es6-shim/es6-shim.min.js',
     'node_modules/es6-shim/es6-shim.map',
     'node_modules/reflect-metadata/Reflect.js.map',
-    'node_modules/angular2/bundles/router.js'
+    'node_modules/angular2/bundles/router.js',
+    'node_modules/angular2/bundles/http.dev.js'
   ])
     .pipe(gulp.dest('build/lib'));
 });
